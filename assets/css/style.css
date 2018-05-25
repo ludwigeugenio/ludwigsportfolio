@@ -1,0 +1,47 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+#navbg {
+	background: url(../images/bg2.jpg);
+	background-size: cover;
+	background-position: fixed;
+}
+
+#logoqt {
+	color: rgba(255,255,255,0.80);
+	padding-bottom: 100px;
+	padding-top: 100px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 0;
+}
+
+.nav-link {
+	color: #D8E2DC;
+}
+
+#overviewbg {
+	background-color: rgba(0,0,0,0.25);
+}
+
+#overview {
+	font-family: 'Song Myung', serif;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #DAF2E3;
+}
+
+#responsive {
+	margin-top: 20px;
+	background-color: rgba(255,255,255,0.10);
+}
+
+
+.resimg {
+	/*background-color: black;*/
+}
+
