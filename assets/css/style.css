@@ -5,12 +5,34 @@
 }
 
 
+/*#nav {
+	position: fixed;
+	z-index: 10;
+	background-color: black;
+}*/
+
+#nav-item {
+	text-align: right;
+}
+
+#logome {
+	color: transparent;
+	background-color: black;
+	padding: 10px;
+
+}
+
+#logoimgml {
+	height: 40px;
+	width: 40px;
+}
 
 #navbg {
 	background: url(../images/bg2.jpg);
 	background-size: cover;
 	/*background-position: fixed;*/
 	background-attachment: fixed;
+	width: 100vw;
 }
 
 #logoqt {
@@ -89,7 +111,7 @@
 	margin-top: 10px;
 }
 .rspvtag {
-	color: #FFFDD0;
+	color: #DAF2E3;
 }
 
 
@@ -106,6 +128,8 @@
 	position: relative;
 	left: 55px;*/
 	/*margin-left: 5px;*/
+	padding-left: 0;
+	padding-right: 0;
 
 }
 
@@ -121,6 +145,7 @@
 
 #meimg {
 	padding-left: 0;
+	padding-right: 0;
 }
 
 
@@ -169,14 +194,32 @@ i:hover {
 	position: absolute;
 	top: 180px;
 	left: -10px;
-	animation-delay: 2s;
+	animation: none;
 }
 
 #phnimg {
 	position: absolute;	
 	bottom: 5px;
 	right: -15px;
-	animation-delay: 3s;
+	animation: none;
+}
+
+#navbg {
+	width: 100vw;
+}
+
+
+
+#hidimg {
+	display:none;
+}
+
+.capstone {
+
+}
+
+#logoimg {
+	display: none;
 }
 
 }
@@ -185,5 +228,6 @@ i:hover {
 
 /*tablets*/
 @media only screen and (max-width: 768px) {
+
 
 }
