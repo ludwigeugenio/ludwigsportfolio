@@ -23,27 +23,34 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 
 	<!-- google fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Song+Myung" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab|Noto+Sans|Song+Myung" rel="stylesheet">
 	
 </head>
 <body>
 	<div class="container-fluid" id="navbg">
 		<div>
 			<nav class="navbar navbar-expand-lg">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="#">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Works</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Contact</a>
-					</li>
-				</ul>
+			<!-- <a class="navbar-brand logo" href="#">Ludwig</a> -->
+				<button class="navbar-toggler clogo" type="button" data-toggle="collapse" data-target="#navbarNav">
+				<span id="logo">Ludwig</span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Works</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+					</ul>
+				</div>
 			</nav>
 
 			<div class="row">
@@ -62,16 +69,20 @@
 					<p class="lead" id="overview"><em>Hey there. My name is Ludwig Van Eugenio. I'm a web developer and I can make your imaginations happen like from simple to magnificent design. Below are some qualities that I put into my projects:</em></p>
 				</div>
 			</div>
-
+			<!-- QUALITIES -->
 			<div class="row" id="responsive">
-				<div class="col-lg-6">
+				<div class="col-lg-6 resimg">
 					<div class="resimgbd col-lg-10 offset-lg-2">
 						<div class="resimg">
-							<img class="img-fluid" src="assets/images/responsive.png">
+							<!-- <img class="img-fluid" src="assets/images/responsive.png"> -->
+							<img class="img-fluid" id="mtrimg" src="assets/images/monitor2.png">
+							<img class="img-fluid animated fadeInLeft" id="tbimg" src="assets/images/tablet2.png">
+							<img class="img-fluid animated fadeInRight" id="phnimg" src="assets/images/phone2.png">
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6">
+				<div class="col-lg-6 dcrpt">
+					<h2 class="display-4 rspvtag animated">Responsive</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -81,8 +92,118 @@
 				</div>
 			</div>
 
+			<div class="row" id="design">
+				<div class="col-lg-6 dcrpt">
+					<h2 class="display-4">Well Designed</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="col-lg-6">
+					<img class="img-fluid" src="">
+				</div>
+			</div> <!-- end of qualities -->
+
+				<!-- WORKS -->
+			<div class="row works">
+				<div class="col-lg-12">
+					<h2 class="display-3" id="workhd">Wanna see my works?</h2>
+				</div>
+				<div class="row">
+					<div class="col-lg-3 offset-lg-2">
+						<img class="img-fluid" src="http://placehold.jp/300x250.png">
+						<div class="col-lg-12">
+							<a href="#">Capstone 1</a>
+						</div>
+					</div>
+					<div class="col-lg-3  capimg">
+						<img class="img-fluid" src="http://placehold.jp/300x250.png">
+						<div class="col-lg-12">
+							<a href="#">Capstone 1</a>
+						</div>
+					</div>
+					<div class="col-lg-3 capimg">
+						<img class="img-fluid" src="http://placehold.jp/300x250.png">
+						<div class="col-lg-12">
+							<a href="#">Capstone 1</a>
+						</div>
+					</div>
+				</div>
+			</div> <!-- end of works -->
+
+			<!-- about me -->
+			<div class="row" id="abtme">
+				<div class="col-lg-6" id="meimg">
+					<img class="img-fluid" src="assets/images/me.jpg">
+				</div>
+				<div class="col-lg-6">
+					<h2 class="display-4">About me</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div> <!-- end of about me -->
 		</main>
+
+		<footer class="row" id="footer">
+			<div class="col-lg-12">
+				<h3 class="display-5">Satisfied? Reach me here!</h3>
+			</div>
+			<div class="col-lg-2 offset-lg-2">
+				<a href="http://www.facebook.com/ludwegs"><i class="fab fa-facebook"></i></a>
+			</div>
+			<div class="col-lg-2">
+				<a href="mailto:ludwig.eugenio1@gmail.com"><i class="fas fa-envelope-square"></i></a>
+			</div>
+			<div class="col-lg-2">
+				<a href="https://github.com/ludwigeugenio"><i class="fab fa-github"></i></a>
+			</div>
+			<div class="col-lg-2">
+				<a href="https://gitlab.com/ludwig.eugenio1"><i class="fab fa-gitlab"></i></a>
+			</div>
+
+
+			
+		</footer>
 	</div> <!-- end container -->
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- external customer js -->
+
+
+
+
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+    <!-- external bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>

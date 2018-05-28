@@ -5,10 +5,12 @@
 }
 
 
+
 #navbg {
 	background: url(../images/bg2.jpg);
 	background-size: cover;
-	background-position: fixed;
+	/*background-position: fixed;*/
+	background-attachment: fixed;
 }
 
 #logoqt {
@@ -19,12 +21,24 @@
 	margin: 0;
 }
 
+.nav-link:hover {
+	color: white;
+}
+
+.clogo {
+	color: rgba(255,255,255,0.80);
+	margin-left: 0;
+	padding-left: 0;
+
+}
+
 .nav-link {
 	color: #D8E2DC;
 }
 
 #overviewbg {
 	background-color: rgba(0,0,0,0.25);
+	/*background-color: #352C29;*/
 }
 
 #overview {
@@ -37,11 +51,139 @@
 
 #responsive {
 	margin-top: 20px;
-	background-color: rgba(255,255,255,0.10);
+	/*background-color: rgba(255,255,255,0.10);*/
+	/*background-color: rgba(10,15,15,0.50);*/
+	/*background-color: white;*/
+	position: relative;
 }
 
 
-.resimg {
-	/*background-color: black;*/
+.dcrpt {
+	color: #DAF2E3;
+	padding-top: 70px;
+	/*background-color: rgba(15,10,6,0.25);*/
 }
 
+.dcrpt>p {
+	background-color: rgba(15,10,6,0.25);
+
+}
+
+#tbimg {
+	position: absolute;
+	top: 200px;
+	left: -70px;
+	/*animation-delay: 2s;*/
+}
+
+#phnimg {
+	position: absolute;	
+	bottom: 20px;
+	right:-30px;
+	/*animation-delay: 3s;*/
+}
+
+#design {
+	/*background-color: #0F0A06;*/
+	/*background-color: green;*/
+	margin-top: 10px;
+}
+.rspvtag {
+	color: #FFFDD0;
+}
+
+
+.works {
+	background-color: #0F0A06;
+	color: rgba(255,255,255,0.50);
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.capimg {
+/*	padding-right: 0;
+	margin-right: 10px;
+	position: relative;
+	left: 55px;*/
+	/*margin-left: 5px;*/
+
+}
+
+.workdesc {
+	padding: 0;
+	margin: 0;
+}
+
+#abtme {
+	background-color: #3E3E3E;
+	color: #F4F4F4;
+}
+
+#meimg {
+	padding-left: 0;
+}
+
+
+#footer {
+	background-color: black;
+	color: rgba(255,255,255,0.25);
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+i {
+	font-size: 50px;
+	color: brown;
+	margin-top: 20px;
+}
+
+i:hover {
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*mobile devices*/
+
+@media only screen and (max-width: 450px) {
+
+#tbimg {
+	position: absolute;
+	top: 180px;
+	left: -10px;
+	animation-delay: 2s;
+}
+
+#phnimg {
+	position: absolute;	
+	bottom: 5px;
+	right: -15px;
+	animation-delay: 3s;
+}
+
+}
+
+
+
+/*tablets*/
+@media only screen and (max-width: 768px) {
+
+}
