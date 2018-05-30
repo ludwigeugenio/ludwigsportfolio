@@ -5,11 +5,6 @@
 }
 
 
-/*#nav {
-	position: fixed;
-	z-index: 10;
-	background-color: black;
-}*/
 
 #nav-item {
 	text-align: right;
@@ -30,9 +25,8 @@
 #navbg {
 	background: url(../images/bg2.jpg);
 	background-size: cover;
-	/*background-position: fixed;*/
 	background-attachment: fixed;
-	width: 100vw;
+
 }
 
 #logoqt {
@@ -60,7 +54,7 @@
 
 #overviewbg {
 	background-color: rgba(0,0,0,0.25);
-	/*background-color: #352C29;*/
+
 }
 
 #overview {
@@ -73,9 +67,6 @@
 
 #responsive {
 	margin-top: 20px;
-	/*background-color: rgba(255,255,255,0.10);*/
-	/*background-color: rgba(10,15,15,0.50);*/
-	/*background-color: white;*/
 	position: relative;
 }
 
@@ -83,11 +74,11 @@
 .dcrpt {
 	color: #DAF2E3;
 	padding-top: 70px;
-	/*background-color: rgba(15,10,6,0.25);*/
+
 }
 
 .dcrpt>p {
-	background-color: rgba(15,10,6,0.25);
+	/*background-color: rgba(15,10,6,0.25);*/
 
 }
 
@@ -95,14 +86,14 @@
 	position: absolute;
 	top: 200px;
 	left: -70px;
-	/*animation-delay: 2s;*/
+	animation-delay: 2s;
 }
 
 #phnimg {
 	position: absolute;	
 	bottom: 20px;
 	right:-30px;
-	/*animation-delay: 3s;*/
+	animation-delay: 3s;
 }
 
 #design {
@@ -122,6 +113,9 @@
 	padding-bottom: 30px;
 }
 
+.capstone {
+	margin-left: 500px; 
+}
 
 
 .workdesc {
@@ -218,7 +212,15 @@ i:hover {
 
 
 /*tablets*/
-@media only screen and (max-width: 768px) {
+@media (min-width: 451px) and (max-width: 768px) {
 
+#phnimg {
+	margin-right: 250px;
+}
+
+.capstone {
+	margin-left: 180px;
+	margin-right: 180px;
+}
 
 }
