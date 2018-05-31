@@ -8,7 +8,7 @@
 	<title>Ludwig | Web Developer</title>
 
 	<!-- favicon -->
-	<link rel="icon" type="image/gif/png" href="">
+	<link rel="icon" type="image/gif/png" href="assets/images/ludwig.PNG">
 
 	<!-- bootstrap css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -37,12 +37,7 @@
 
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav ml-auto">
-<!-- 						<li class="nav-item hidden-md-up" id="hidimg">
-							<img id="logoimg" src="assets/images/ludwig.PNG">
-						</li> -->
-						<li class="nav-item">
-							<a class="nav-link" href="#navbg">Home</a>
-						</li>
+
 						<li class="nav-item">
 							<a class="nav-link" href="#abtme">About</a>
 						</li>
@@ -58,11 +53,11 @@
 			</nav>
 
 			<div class="row">
-				<div class="col-lg-9 offset-lg-3">
-					<img id="logoimg" src="assets/images/ludwig.PNG">
+				<div class="col-lg-6 offset-lg-3" id="logocont">
+					<img id="logoimg" class="wow fadeIn" data-wow-duration="4s" src="assets/images/ludwig.PNG">
 				</div>
 				<div class="col-lg-7 offset-lg-3">
-					<h1 class="display-3 animated fadeIn" id="logoqt">Don't stay ordinary. Be unique.</h1>
+					<h1 class="display-3 wow fadeIn" data-wow-duration="4s" id="logoqt">Don't stay ordinary. <span id="be">Be</span> unique.</h1>
 				</div>				
 			</div>
 
@@ -74,43 +69,33 @@
 			<div class="row">
 
 				<div class="col-lg-12" id="overviewbg">
-					<p class="lead" id="overview"><em>Hey there. My name is Ludwig Van Eugenio. I'm a web developer and I can make your imaginations happen like from simple to magnificent design. Below are some qualities that I put into my projects:</em></p>
+					<p class="lead" id="overview"><em>Hey there. My name is Ludwig Van Eugenio. I'm a web developer and I can make your imaginations happen from simple to magnificent design. Below are some qualities that I put into my projects:</em></p>
 				</div>
 			</div>
 			<!-- QUALITIES -->
 			<div class="row" id="responsive">
-				<div class="col-lg-6 resimg">
+				<div class="col-lg-6 order-2 order-lg-1 resimg">
 					<div class="resimgbd col-lg-10 offset-lg-2">
 						<div class="resimg">
 							<img class="img-fluid" id="mtrimg" src="assets/images/monitor2.png">
-							<img class="img-fluid animated fadeInLeft" id="tbimg" src="assets/images/tablet2.png">
-							<img class="img-fluid animated fadeInRight" id="phnimg" src="assets/images/phone2.png">
+							<img class="img-fluid wow fadeInLeft" id="tbimg" src="assets/images/tablet2.png">
+							<img class="img-fluid wow fadeInRight" id="phnimg" src="assets/images/phone2.png">
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6 dcrpt">
-					<h2 class="display-4 rspvtag animated">Responsive</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div class="col-lg-6 order-1 order-lg-2 dcrpt">
+					<h2 class="display-4 rspvtag">Responsive</h2>
+					<p>The websites that I am creating are fully responsive where every user from their tiny devices up to their gigantic monitors will definitely enjoy navigating through it. Awesome right?</p>
 				</div>
 			</div>
 
 			<div class="row" id="design">
-				<div class="col-lg-6 dcrpt">
+				<div class="col-lg-5 order-1 order-lg-1 dcrpt1">
 					<h2 class="display-4">Well Designed</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>When it comes to designs</p>
 				</div>
-				<div class="col-lg-6">
-					<img class="img-fluid" src="">
+				<div class="col-lg-6 order-2 order-lg-2">
+					<img id="wdimg" class="img-fluid" src="assets/images/welldesigned.png">
 				</div>
 			</div> <!-- end of qualities -->
 
@@ -121,9 +106,9 @@
 				</div>
 				<div class="row capstone">
 					<div class="col-lg-12">
-						<img class="img-fluid" src="assets/images/capstone1.png">
+						<a href="https://ludwigeugenio.github.io/ludwig-jeans/"><img class="img-fluid" src="assets/images/capstone1.png"></a>
 						<div class="col-lg-12">
-							<a href="#">Capstone 1</a>
+							<a id="capstone1link" href="https://ludwigeugenio.github.io/ludwig-jeans/">Capstone 1</a>
 						</div>
 					</div>
 				</div>
@@ -150,16 +135,16 @@
 			<div class="col-lg-12">
 				<h3 class="display-5">Satisfied? Reach me here!</h3>
 			</div>
-			<div class="col-lg-2 offset-lg-2">
+			<div class="col-lg-2 col-3 offset-lg-2">
 				<a href="http://www.facebook.com/ludwegs"><i class="fab fa-facebook"></i></a>
 			</div>
-			<div class="col-lg-2">
+			<div class="col-lg-2 col-3">
 				<a href="mailto:ludwig.eugenio1@gmail.com"><i class="fas fa-envelope-square"></i></a>
 			</div>
-			<div class="col-lg-2">
+			<div class="col-lg-2 col-3">
 				<a href="https://github.com/ludwigeugenio"><i class="fab fa-github"></i></a>
 			</div>
-			<div class="col-lg-2">
+			<div class="col-lg-2 col-3">
 				<a href="https://gitlab.com/ludwig.eugenio1"><i class="fab fa-gitlab"></i></a>
 			</div>
 
@@ -189,7 +174,12 @@
 
 <!-- external customer js -->
 
+	<!-- wow js -->
 
+	              <script src="assets/js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 
 
  <!-- jQuery first, then Popper.js, then Bootstrap JS -->

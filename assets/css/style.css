@@ -48,6 +48,11 @@
 
 }
 
+.clogo:active {
+	box-shadow: none;
+	border:none;
+}
+
 .nav-link {
 	color: #D8E2DC;
 }
@@ -68,6 +73,24 @@
 #responsive {
 	margin-top: 20px;
 	position: relative;
+		border: 1px solid rgba(0,0,0,.5);
+	background-color: rgba(0,0,0,.25);
+}
+
+
+
+#design {
+	border: 1px solid rgba(0,0,0,.5);
+	background-color: rgba(0,0,0,.25);
+	padding-top: 40px;
+	padding-bottom: 20px;
+
+}
+
+
+.dcrpt, .dcrpt1 {
+/*	border: 1px solid rgba(0,0,0,.5);
+	background-color: rgba(0,0,0,.25);*/
 }
 
 
@@ -77,23 +100,31 @@
 
 }
 
-.dcrpt>p {
-	/*background-color: rgba(15,10,6,0.25);*/
+.dcrpt1 {
+	margin-left: 50px;
+	color: #DAF2E3;
 
+
+}
+
+#wdimg {
+	height: 317.641px;
+	width: 450px;
+	margin-left: 100px;
 }
 
 #tbimg {
 	position: absolute;
 	top: 200px;
 	left: -70px;
-	animation-delay: 2s;
+	animation-delay: .8s;
 }
 
 #phnimg {
 	position: absolute;	
 	bottom: 20px;
 	right:-30px;
-	animation-delay: 3s;
+	animation-delay: .8s;
 }
 
 #design {
@@ -114,7 +145,8 @@
 }
 
 .capstone {
-	margin-left: 500px; 
+	margin-left: 400px;
+	margin-right: 400px; 
 }
 
 
@@ -152,7 +184,12 @@ i:hover {
 	color: white;
 }
 
-
+#capstone1link {
+	text-decoration: none;
+	font-size: 2em;
+	font-family: 'Song Myung', serif;
+	color: rgba(255,255,255,.5);
+}
 
 
 
@@ -200,11 +237,32 @@ i:hover {
 }
 
 .capstone {
-
+	margin-left: 90px;
+	margin-right: 150px;
 }
 
 #logoimg {
 	display: none;
+}
+
+.dcrpt1 {
+	margin-left: 0px;
+	color: #DAF2E3;
+	margin-top: 40px;
+}
+
+
+#wdimg {
+	margin-left: 0px;
+}
+
+
+#workhd {
+	font-size: 3em;
+}
+
+.resimg {
+	padding-bottom: 40px;
 }
 
 }
@@ -223,4 +281,66 @@ i:hover {
 	margin-right: 180px;
 }
 
+#logoimg {
+	width: 350px;
+	height: 341.438px;
+	margin-left: 25vw;
 }
+
+#be {
+	margin-left: 1px;
+}
+
+#mtrimg {
+	margin-left: 160px;
+
+}
+
+#tbimg {
+	left: 80px;
+	animation: none;
+}
+
+#phnimg {
+	margin-right: 100px; 
+	animation: none;
+}
+
+#wdimg {
+	margin-left: 150px;
+}
+
+.dcrpt1 {
+	margin-left: 0px;
+}
+
+}
+
+
+/*widescreen*/
+
+
+@media (min-width:1281px) and (max-width: 2000px) {
+
+	.resimgbd {
+		margin-left: 280px;
+	}
+
+	#phnimg {
+		left: 300px;
+	}
+
+	#logocont {
+		margin-left: 680px;
+		overflow: hidden;
+	}
+
+	#wdimg {
+		margin-left: 300px;
+	}
+
+	#design>.dcrpt1>h2, #design>.dcrpt1>p {
+		margin-left: 180px;
+	}
+}
+
